@@ -1,0 +1,46 @@
+{
+  "name": "activity-redev",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "emotion": "^10.0.14"
+  },
+  "dependencies": {
+    "@craco/craco": "^5.3.0",
+    "@emotion/babel-preset-css-prop": "^10.0.14",
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "emotion": "^10.0.14",
+    "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-emotion": "^10.0.0",
+    "react-hook-form": "^3.23.12",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-select": "^3.0.4",
+    "yup": "^0.26.5"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "json:server": "json-server --watch ./src/data/db.json"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
